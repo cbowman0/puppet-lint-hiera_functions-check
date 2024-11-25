@@ -2,8 +2,7 @@ puppet-lint-hiera_functions-check
 =================================
 
 [![License](https://img.shields.io/github/license/cbowman0/puppet-lint-hiera_functions-check.svg)](https://github.com/cbowman0/puppet-lint-hiera_functions-check/blob/master/LICENSE)
-[![Test](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/test.yml/badge.svg)](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/test.yml)
-[![Release](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/release.yml/badge.svg)](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/release.yml)
+[![CI](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/ci.yml/badge.svg)](https://github.com/cbowman0/puppet-lint-hiera_functions-check/actions/workflows/ci.yml)
 [![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-hiera_functions-check.svg)](https://rubygems.org/gems/puppet-lint-hiera_functions-check)
 [![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-hiera_functions-check.svg)](https://rubygems.org/gems/puppet-lint-hiera_functions-check)
 

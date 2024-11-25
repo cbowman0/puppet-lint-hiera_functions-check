@@ -1,0 +1,34 @@
+# .github/workflows/push_gem.yml
+name: Push gem to RubyGems.org
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+
+jobs:
+  push:
+    if: github.repository == 'cbowman0/puppet-lint-hiera_functions-check'
+    runs-on: ubuntu-latest
+
+    environment:
+      name: rubygems.org
+      url: https://rubygems.org/gems/puppet-lint-hiera_functions-check
+
+    permissions:
+      id-token: write
+      contents: write
+
+    steps:
+      # Set up
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: ruby
+
+      # Release
+      - uses: rubygems/release-gem@v1
